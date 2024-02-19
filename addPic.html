@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Pciture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Add Picture</h1>
+    <form id="addPictureForm">
+        <label for="quote">Quote : </label>
+        <input type="text" id="quote" name="quote" required>
+        <br><br>
+        <label for="photo">Photo : </label>
+        <input type="file" id="photo" name="photo" required>
+        <br><br>
+        <label for="device">Device : </label>
+        <input type="text" id="device" name="device" required>
+        <br><br>
+        <label for="commentsCount">Comments Count : </label>
+        <input type="number" id="commentsCount" name="commentsCount" required>
+        <br><br>
+        <input type="hidden" id="userId" name="userId" value="">
+        <button type="submit">Add picture</button>
+    </form>
+    <script src="addPic.js"></script>
+</body>
+</html>
